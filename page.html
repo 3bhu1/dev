@@ -1,0 +1,388 @@
+<!DOCTYPE HTML>
+<html ng-app="myApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Eschool</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/bounceArrow.css">
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <link rel="import" href="bower_components/profile-vcard/profile-vcard.html">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" href="bower_components/ng-responsive-calendar/dist/css/calendar.min.css" />
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/ng-responsive-calendar/dist/js/calendar-tpls.js"></script>
+    <script src="bower_components/ng-responsive-calendar/demo/calendarDemoCtrl.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    
+    <script src="http://code.jquery.com/jquery.js"></script>
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <h1>Eschool<span class="color">.</span></h1>
+            <nav class = "collapse navbar-collapse">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="hero-image">
+            <section id="section1">
+                <div id="firstRow" class="row barone">
+                    <div id="firstFirst" class="col-lg-12">
+                        <p><img class="img-circle" src="assets/pictures/pic-profile.png" height="150" width="150"></p>
+                    </div>
+                    
+                    <div id='mapdiv' class="col-lg-4">
+                    </div>
+                </div>
+                <div id="secondRow" class="row barone">
+                    <div id="secondFirst" class="col-lg-12">
+                        <p><h3 class="md-headline" style="color: white; font-family: 'Crete Round', serif;">Anisha Roy<h3></p>
+                        <p><h5 class="md-title" style="color: white; font-family: 'Crete Round',serif;">ENR11101998<h5></p>
+                        <p><h5 class="md-title" style="color: white; font-family: 'Crete Round',serif;">12<sup>th</sup><h5></p>
+                        <p><h5 class="md-title" style="color: white; font-family: 'Crete Round',serif;">Children Public School, New Town, Kolkata<h5></p>
+                        <p><h5 class="md-title" style="color: white; font-family: 'Crete Round',serif;">+91 9007672828<h5></p>
+                        <p><h5 class="md-title" style="color: white; font-family: 'Crete Round',serif;">anisha@gmail.com<h5></p>
+                        <div class="arrow bounce">
+                        </div>
+                    </div>
+                    
+                    <div id='mapdiv' class="col-lg-4">
+                    </div>
+                </div>
+            </section>       
+    </div>
+
+    <div id="features">
+        
+<div class="row barone">
+<div id="secondFirst" class="col-lg-4">
+    <p><h3 style="color: bluevoilet">my time table</h3></p>
+<p>
+    <div class="table-responsive">
+  <table class="table">
+    <thead>
+        <tr class="Info">
+            <th></th>
+            <th> Mon </th>
+            <th> Tue </th>
+            <th> Wed </th>
+            <th> Thu </th>
+            <th> Fri </th>
+            <th> Sat </th>
+        </tr>  
+    </thead>
+    <tbody>
+        <tr class="warning">
+            <th> 09:00 </th>
+            <td> PHY</td>
+            <td> PHY</td>
+            <td> PHY</td>
+            <td> PHY</td>
+            <td> PHY</td>
+            <td> PHY</td>
+        </tr>
+        <tr class="danger">
+            <th> 09:30 </th>
+            <td> MTH</td>
+            <td> MTH</td>
+            <td> MTH</td>
+            <td> MTH</td>
+            <td> MTH</td>
+            <td> MTH</td>
+        </tr>
+        <tr class="active">
+            <th> 10:00 </th>
+            <td> CHE</td>
+            <td> CHE</td>
+            <td> CHE</td>
+            <td> CHE</td>
+            <td> CHE</td>
+            <td> CHE</td>
+        </tr>
+        <tr class="info">
+            <th> 10:30 </th>
+            <td> ENG</td>
+            <td> ENG</td>
+            <td> ENG</td>
+            <td> ENG</td>
+            <td> ENG</td>
+            <td> ENG</td>
+        </tr>
+        <tr class="warning">
+            <th> 11:00 </th>
+            <td> HIN</td>
+            <td> HIN</td>
+            <td> HIN</td>
+            <td> HIN</td>
+            <td> HIN</td>
+            <td> HIN</td>
+        </tr>
+        <tr class="danger">
+            <th> 11:30 </th>
+            <td> GEO</td>
+            <td> GEO</td>
+            <td> GEO</td>
+            <td> GEO</td>
+            <td> GEO</td>
+            <td> GEO</td>
+        </tr>
+        <tr class="success">
+            <th> 12:00 </th>
+            <th> L </th>
+            <th> U </th>
+            <th> N </th>
+            <th> C </th>
+            <th> H </th>
+            <th> --> </th>
+        </tr>
+        <tr class="active">
+            <th> 12:30 </th>
+            <td>HIS</td>
+            <td>HIS</td>
+            <td>HIS</td>
+            <td>HIS</td>
+            <td>HIS</td>
+            <td>HIS</td>
+        </tr>
+        <tr class="info">
+            <th> 13:00 </th>
+            <td>ABC</td>
+            <td>ABC</td>
+            <td>ABC</td>
+            <td>ABC</td>
+            <td>ABC</td>
+            <td>ABC</td>
+        </tr>
+        <tr class="warning">
+            <th> 13:30 </th>
+            <td>PQR</td>
+            <td>PQR</td>
+            <td>PQR</td>
+            <td>PQR</td>
+            <td>PQR</td>
+            <td>PQR</td>
+        </tr>
+        <tr class="danger">
+            <th> 14:00 </th>
+            <td>PHE</td>
+            <td>PHE</td>
+            <td>PHE</td>
+            <td>PHE</td>
+            <td>PHE</td>
+            <td>PHE</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+</p>
+</div>
+<div id="secondSecond" class="col-lg-4">
+    <p><button id="resultButton" class="btn btn-success btn-lg">GO TO REPORT CARD</button></p>
+<section style="float: left">
+  <h3 id="avgHead" class="md-headline">Yearly Average</h3>
+</section>
+<section style="float: right">
+  <h2 id="avgShow" class="md-title">8.25</h2>
+  <h4 id="avgTotal" class="md-subhead">/10</h4>
+</section>
+    <br>
+    <br>
+    <br>
+<h6 style="float: left; margin: 2px" class="md-subhead">Mathematics</h6>
+<div style="width:100%; margin: 1px" class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    <span class="sr-only">70% Complete</span>
+  </div>
+</div>
+<h6 style="float: left; margin: 2px" class="md-subhead">History</h6>
+<div style="width:100%; margin: 1px" class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    <span class="sr-only">70% Complete</span>
+  </div>
+</div> 
+<h6 style="float: left; margin: 2px" class="md-subhead">English</h6>
+<div style="width:100%; margin: 1px" class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:63%">
+    <span class="sr-only">70% Complete</span>
+  </div>
+</div>
+<h6 style="float: left; margin: 2px" class="md-subhead">Physics</h6>
+<div style="width:100%; margin: 1px" class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:45%">
+    <span class="sr-only">70% Complete</span>
+  </div>
+</div>
+<h6 style="float: left; margin: 2px" class="md-subhead">Chemistry</h6>
+<div style="width:100%; margin: 1px" class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:73%">
+    <span class="sr-only">70% Complete</span>
+  </div>
+</div>  
+</div>
+<div class="col-lg-4">
+<section id="App2" ng-controller="CalendarCtrl" ng-init="loadEvents()">
+            <div class="alert alert-success" ng-show="event">Event selected:{{event.startTime|date:
+                'MMM/dd,yyyy,HH:mm'}} - {{event.endTime|date:'MMM/dd,yyyy,HH:mm'}}, {{event.title}}
+            </div>
+
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default" ng-class="{active:mode==='month'}"
+                            ng-click="changeMode('month')">
+                        Month
+                    </button>
+                    <button type="button" class="btn btn-default" ng-class="{active:mode==='week'}"
+                            ng-click="changeMode('week')">
+                        Week
+                    </button>
+                    <button type="button" class="btn btn-default" ng-class="{active:mode==='day'}"
+                            ng-click="changeMode('day')">
+                        Day
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default" ng-disabled="isToday()"
+                            ng-click="today()">
+                        Today
+                    </button>
+                </div>
+            </div>
+            <div class="well well-sm">
+                <calendar ng-model="currentDate" calendar-mode="mode" event-source="eventSource"
+                          range-changed="reloadSource(startTime, endTime)"
+                          event-selected="onEventSelected(event)"
+                          time-selected="onTimeSelected(selectedTime)"></calendar>
+            </div>
+        </section>
+</div>
+</div>
+        
+    </div>
+
+    <div id="primary-content">
+        
+                <div class="container main-container">
+  
+  <h1 style="color: #FFF">my classmates</h1>
+    <div id="carousel-example-generic" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <!-- First slide -->
+        <div class="item active">
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+        </div> <!-- /.item -->
+
+        <!-- Second slide -->
+        <div class="item">
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+        </div><!-- /.item -->
+
+        <!-- Third slide -->
+        <div class="item">
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+          <profile-vcard name="Mukund Kumar" image="https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14479550_1103494819733522_4074086987240970233_n.jpg?oh=b5bbce4e2ee71a7cf619397f87376d5a&oe=58D65CCB" profession="Monitor" description="Cool Guy" twitter="84%" website="12th" place="Ranchi, Jharkhand"></profile-vcard>
+        </div><!-- /.item -->
+
+      </div><!-- /.carousel-inner -->
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+</div><!-- /.container -->  
+        
+    </div>
+<!--
+    <div id="secondary-content">
+        <div class="wrapper">
+
+        </div>
+    </div>
+-->
+    <div id="cta">
+            <h3 style="color: #FFF">Facing Issues?</h3>
+            <p style="color: #FFF">We are here to help.</p>
+            <a href="#" class="button-2">Help Me!</a>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div id="footer-info">
+                <h1 style="color: #FFF;">Eschool<span style="color: #02b8dd">.</span></h1>
+            </div>
+            <div id="footer-links">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        About Us
+                    </li>
+                    <li>
+                        Advertise
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Contact Us
+                    </li>
+                    <li>
+                        Career
+                    </li>
+                    <li>
+                        Developers
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Follow Us
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

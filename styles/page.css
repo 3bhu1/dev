@@ -1,0 +1,86 @@
+.img-circle {
+    border-radius: 50%;
+}
+img {
+    display: block;
+    margin: auto;
+}
+#profile{
+width: 600px;
+max-width: 100%;
+display: block;
+        margin: auto;
+}
+#footer{background-color: #282C35;
+    border-top: 1px solid #eee;
+    padding: 0;}
+#firstFirst{
+width: 200px;
+        height: auto;
+display: block;
+        margin: auto;
+}
+hr{
+border-top: 1px solid #cb202d;
+}
+#resultButton{
+background-color: #cb202d;
+border-color: #cb202d;
+padding: 10px 10px;
+font-size: 14px;
+display: block;
+     margin: auto;
+width: 100%;
+}
+#section1{
+    position: relative;
+    background: #FDF3E7;
+    box-shadow: none;
+    margin: 1rem 0;
+    padding: 1em;
+    border-radius: .28571429rem;
+    border: 1px solid #6d6e70;
+}
+#section2{
+    position: relative;
+    background: #ECECEA;
+    box-shadow: none;
+    margin: 1rem 0;
+    padding: 1em;
+    border-radius: .28571429rem;
+    border: 1px solid #6d6e70;
+}
+#section3{
+    position: relative;
+    background: #FFF;
+    box-shadow: none;
+    margin: 1rem 0;
+    padding: 1em;
+    border-radius: .28571429rem;
+    border: 1px solid #6d6e70;
+}
+#secondFirst{
+    width: 250px;
+    height: 250px;
+display: block;
+    margin: auto;
+}
+#secondSecond{
+    width: 500px;
+    height: auto;
+display: block;
+    margin: auto;
+    max-width: 100%;
+}
+#avgHead{
+    display: inline;
+}
+#avgShow{
+    display: inline;
+    color:blueviolet;
+}
+#avgTotal{
+    display: inline;
+    color:blueviolet;
+}
+.progress{height: 50%;}
